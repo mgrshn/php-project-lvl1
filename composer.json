@@ -11,5 +11,7 @@
             "email": "grishinma2009@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    }
 }
