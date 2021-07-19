@@ -1,5 +1,10 @@
 {
     "name": "hexlet/code",
+    "description" : "This is my first php project",
+    "license": "proprietary",
+    "bin": [
+    	"bin/brain-games"
+    ],
     "authors": [
         {
             "name": "mgrshn",
