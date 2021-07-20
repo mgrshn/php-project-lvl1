@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check code with linter.
-      - run: make lint
+        run: make lint
       
