@@ -12,6 +12,9 @@ jobs:
         with:
           php-version: '7.4'
 
+      - name: Install
+        run: make install 
+
       - name: Check code with linter.
         run: make lint
       
