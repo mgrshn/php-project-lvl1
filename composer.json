@@ -3,7 +3,8 @@
     "description" : "This is my first php project",
     "license": "proprietary",
     "bin": [
-    	"bin/brain-games"
+    	"bin/brain-games",
+        "bin/brain-even"
     ],
     "authors": [
         {
