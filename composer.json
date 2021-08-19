@@ -4,8 +4,16 @@
     "license": "proprietary",
     "bin": [
     	"bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
+    "autoload": {
+        "files": [
+            "src/Engine.php",
+            "src/Games/isEven.php",
+            "src/Games/GameCalculator.php"
+        ]
+    },
     "authors": [
         {
             "name": "mgrshn",
