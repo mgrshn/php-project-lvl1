@@ -7,6 +7,6 @@
 [![Status](https://github.com/mgrshn/php-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/mgrshn/php-project-lvl1/actions)
 
 
-brain-even DEMO: https://asciinema.org/a/55AYd90438QteX4qJtHSroMCW
-brain-calc DEMO: https://asciinema.org/a/AB7nAgLmqbECI0JuTSyBPapGT
-brein-gcd DEMO: https://asciinema.org/a/J7jhX0K9bvcpvfEAmZX5wqNml
+brain-even DEMO: https://asciinema.org/a/55AYd90438QteX4qJtHSroMCW  
+brain-calc DEMO: https://asciinema.org/a/AB7nAgLmqbECI0JuTSyBPapGT  
+brein-gcd DEMO: https://asciinema.org/a/J7jhX0K9bvcpvfEAmZX5wqNml  
