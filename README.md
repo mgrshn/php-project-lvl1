@@ -9,3 +9,4 @@
 
 brain-even DEMO: https://asciinema.org/a/55AYd90438QteX4qJtHSroMCW
 brain-calc DEMO: https://asciinema.org/a/AB7nAgLmqbECI0JuTSyBPapGT
+brein-gcd DEMO: https://asciinema.org/a/J7jhX0K9bvcpvfEAmZX5wqNml
