@@ -17,7 +17,7 @@ function isPrime()
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
     for ($rounds = 0; $rounds < 3; $rounds++) {
         $result = '';
-        $number = rand(0, 113);
+        $number = rand(1, 113);
         askQuestion($number);
         $highestIntegralSquareRoot = floor(sqrt($number));
         $primeChecker = true;
