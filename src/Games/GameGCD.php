@@ -37,5 +37,7 @@ function gcdGame()
             line("Correct!");
         }
     }
+    if (progressCheck($rounds)) {
         congratulateWinner($name);
+    }
 }

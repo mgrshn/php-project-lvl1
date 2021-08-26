@@ -6,14 +6,16 @@
     	"bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "autoload": {
         "files": [
             "src/Engine.php",
             "src/Games/isEven.php",
             "src/Games/GameCalculator.php",
-            "src/Games/GameGCD.php"
+            "src/Games/GameGCD.php",
+            "src/Games/GameProgression.php"
         ]
     },
     "authors": [
