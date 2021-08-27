@@ -32,6 +32,7 @@ function gcdGame(): void
             }
         }
         $answer = getAnswer();
+        $gcd = (string) $gcd;
         if (errorCheck($gcd, $answer, $name)) {
             break;
         } else {

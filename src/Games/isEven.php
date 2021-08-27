@@ -18,7 +18,8 @@ function isEven(): void
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $roundsCount = 0;
     for ($i = 0; $i < 3; $i++) {
-        (string) $randomValue = rand(1, 50);
+        $randomValue = rand(1, 50);
+        $randomValue = (string) $randomValue;
         askQuestion($randomValue);
         $answer = getAnswer();
 

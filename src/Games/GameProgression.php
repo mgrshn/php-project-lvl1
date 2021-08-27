@@ -33,6 +33,7 @@ function progression(): void
         }
         askQuestion($question);
         $answer = getAnswer();
+        $initialProgression[$positionOfSkippingNumber] = (string) $initialProgression[$positionOfSkippingNumber];
         if (errorCheck($initialProgression[$positionOfSkippingNumber], $answer, $name)) {
             break;
         } else {
