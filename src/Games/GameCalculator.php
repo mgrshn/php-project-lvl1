@@ -38,8 +38,7 @@ function calculatorGame(): void
                 break;
         }
         $answer = getAnswer();
-        strval($result);
-        if (errorCheck($result, $answer, $name)) {
+        if (errorCheck(strval($result), $answer, $name)) {
             break;
         } else {
             line("Correct!");
