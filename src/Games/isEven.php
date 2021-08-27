@@ -11,14 +11,14 @@ use function Brain\Games\Engine\errorCheck;
 use function Brain\Games\Engine\progressCheck;
 use function Brain\Games\Engine\congratulateWinner;
 
-function isEven()
+function isEven(): void
 {
     $result = '';
     $name = greeting();
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $roundsCount = 0;
     for ($i = 0; $i < 3; $i++) {
-        $randomValue = rand(1, 50);
+        (string) $randomValue = rand(1, 50);
         askQuestion($randomValue);
         $answer = getAnswer();
 

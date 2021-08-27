@@ -11,7 +11,7 @@ use function Brain\Games\Engine\errorCheck;
 use function Brain\Games\Engine\progressCheck;
 use function Brain\Games\Engine\congratulateWinner;
 
-function calculatorGame()
+function calculatorGame(): void
 {
     $name = greeting();
     $result = 0;

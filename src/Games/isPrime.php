@@ -11,11 +11,12 @@ use function Brain\Games\Engine\errorCheck;
 use function Brain\Games\Engine\progressCheck;
 use function Brain\Games\Engine\congratulateWinner;
 
-function isPrime()
+function isPrime(): void
 {
     $name = greeting();
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
-    for ($rounds = 0; $rounds < 3; $rounds++) {
+    $rounds = 0;
+    for ($rounds; $rounds < 3; $rounds++) {
         $result = '';
         $number = rand(1, 113);
         askQuestion($number);

@@ -13,7 +13,7 @@ function greeting(): string
     return $name;
 }
 
-function askQuestion($question)
+function askQuestion(string $question): void
 {
     line("Question: {$question}");
 }
@@ -25,7 +25,7 @@ function getAnswer(): string
 }
 
 /*Проверяем сходится ли ожидаемый результат с введённым игроком"*/
-function errorCheck($actualResult, $playersResponse, $name): bool
+function errorCheck(string $actualResult, string $playersResponse, string $name): bool
 {
     if ($actualResult != $playersResponse) {
         line("{$playersResponse} is wrong answer ;(. Correct answer was {$actualResult}\nLet's try again, {$name}!");
@@ -35,7 +35,7 @@ function errorCheck($actualResult, $playersResponse, $name): bool
     }
 }
 
-function progressCheck($round): bool
+function progressCheck(int $round): bool
 {
     if ($round === 3) {
         return true;
@@ -44,7 +44,7 @@ function progressCheck($round): bool
     }
 }
 
-function congratulateWinner($name)
+function congratulateWinner(string $name): void
 {
     line("Congratulations, {$name}!");
 }

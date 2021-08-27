@@ -11,11 +11,12 @@ use function Brain\Games\Engine\errorCheck;
 use function Brain\Games\Engine\progressCheck;
 use function Brain\Games\Engine\congratulateWinner;
 
-function gcdGame()
+function gcdGame(): void
 {
     $name = greeting();
     line('Find the greatest common divisor of given numbers.');
-    for ($rounds = 0; $rounds < 3; $rounds++) {
+    $rounds = 0;
+    for ($rounds; $rounds < 3; $rounds++) {
         $gcd = 1;
         $firstNumber = rand(1, 100);
         $secondNumber = rand(1, 100);

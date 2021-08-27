@@ -11,11 +11,12 @@ use function Brain\Games\Engine\errorCheck;
 use function Brain\Games\Engine\progressCheck;
 use function Brain\Games\Engine\congratulateWinner;
 
-function progression()
+function progression(): void
 {
     $name = greeting();
     line('What number is missing in the progression?');
-    for ($rounds = 0; $rounds < 3; $rounds++) {
+    $rounds = 0;
+    for ($rounds; $rounds < 3; $rounds++) {
         $question = '';
         $firstElem = rand(1, 50);
         $initialProgression = [$firstElem];
