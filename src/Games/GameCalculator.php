@@ -28,16 +28,17 @@ function calculatorGame(): void
 
         switch ($randomOperation) {
             case '+':
-                (string) $result = $firstRandomNumber + $secondRandomNumber;
+                $result = $firstRandomNumber + $secondRandomNumber;
                 break;
             case '-':
-                (string) $result = $firstRandomNumber - $secondRandomNumber;
+                $result = $firstRandomNumber - $secondRandomNumber;
                 break;
             case '*':
-                (string) $result = $firstRandomNumber * $secondRandomNumber;
+                $result = $firstRandomNumber * $secondRandomNumber;
                 break;
         }
         $answer = getAnswer();
+        strval($result);
         if (errorCheck($result, $answer, $name)) {
             break;
         } else {
