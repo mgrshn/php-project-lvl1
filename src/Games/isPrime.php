@@ -19,9 +19,9 @@ function isPrime(): void
     for ($rounds; $rounds < 3; $rounds++) {
         $result = '';
         $number = rand(1, 113);
+        $highestIntegralSquareRoot = floor(sqrt($number));
         $number = (string) $number;
         askQuestion($number);
-        $highestIntegralSquareRoot = floor(sqrt($number));
         $primeChecker = true;
         for ($i = 2; $i < $number; $i++) {
             if ($number % $i == 0) {
